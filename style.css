@@ -1,0 +1,39 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.hero{
+  background-color: #1f2937;
+  color: white;
+  padding: 0 50px;
+  /* margin: 0; */
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+} 
+.rt-link {
+  display: flex;
+  justify-content: space-between;
+}
+.top-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+}
+.lt-header,.rt-header {
+  /* width: 400px; */
+  /* max-width: 400px; */
+  flex-wrap: wrap;
+  flex: 1; /*This line splits the space equally*/
+
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 1200px; */
+}
+* {
+  border: solid 1px rgb(223, 144, 53);
+}
